@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+  /* background: #343d46; */
+}
+
+.list {
+    padding-top: 10px;
+}
+
+@media print {
+    #header {display:none;}
+    #content {display:none;}
+    #comments {display:none;}
+    #sidebar {display:none;}
+    #footer {display:none;}
+
+    .site-description {display:none;}
+    .site-title {display:none;}
+}
+
+/* test below */
